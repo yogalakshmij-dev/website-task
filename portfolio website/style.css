@@ -81,7 +81,7 @@ header {
 }
 /* banner section */
 #banner {
-    background:  linear-gradient(#4d4b4bbb, #767373),url('img/bg.jpg') no-repeat center center/cover;
+    background:  linear-gradient(#26374647, #948a8a8a),url('img/bg.jpg') no-repeat center center/cover;
     height: 80vh;
     display: flex;
     justify-content: center;
@@ -103,7 +103,7 @@ header {
     font-weight: 400;
     line-height: 1.6;
     margin-bottom: 20px;
-    color: #0a0a0a;
+    color: #ffffff;
 }
 .button{
     color: white;
@@ -116,6 +116,9 @@ header {
     border-radius: 50px;
     margin: 10px;
     text-decoration: none;
+}
+.button:hover{
+    background-color:#1b80d8;
 }
 /* About section */
 .about-container{
